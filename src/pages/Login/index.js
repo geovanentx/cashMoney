@@ -7,7 +7,7 @@ import { useNavigation } from '@react-navigation/native'
 // import ImgLogo from '../../assets/logo.png'
 
 const Login = () => {
-    const [value, onChangeText] = React.useState('Useless Placeholder');
+    const [value, onChangeText] = React.useState('');
 
     const navigation = useNavigation()
 
