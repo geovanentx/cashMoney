@@ -4,10 +4,9 @@ import { createStackNavigator } from '@react-navigation/stack'
 
 const AppStack = createStackNavigator()
 
-import Main from './pages/Main'
-import Detail from './pages/Detail'
 import Login from './pages/Login'
 import Perfil from './pages/Perfil'
+import Principal from './pages/Principal'
 
 export default function Routes(){
     return(
@@ -15,8 +14,7 @@ export default function Routes(){
             <AppStack.Navigator screenOptions={{headerShown: false}}>
                 <AppStack.Screen name="Login" component={Login}/>
                 <AppStack.Screen name="Perfil" component={Perfil}/>
-                <AppStack.Screen name="Main" component={Main}/>
-                <AppStack.Screen name="Detail" component={Detail}/>
+                <AppStack.Screen name="Principal" component={Principal}/>
             </AppStack.Navigator>
         </NavigationContainer>
     )

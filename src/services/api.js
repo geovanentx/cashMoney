@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const api = axios.create({
-    baseURL:'https://api.covid19api.com'
+    baseURL:'http://localhost:3000'
 })
 
 export default api

@@ -12,7 +12,7 @@ const Login = () => {
     const navigation = useNavigation()
 
     const saveData = async()=>{
-        navigation.navigate('Perfil',{})
+        navigation.navigate('Principal',{})
         // const {email,password} = this.state;
         // alert(email)
 
